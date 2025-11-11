@@ -609,8 +609,9 @@ export default function HomePage() {
                               rel="noopener noreferrer"
                               className="inline-flex items-center gap-1.5 text-sm text-accent hover:text-subtle transition-colors"
                             >
-                              <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
-                                <path d="M5.242 13.769L0 9.5 12 0l12 9.5-5.242 4.269C17.548 11.249 14.978 9.5 12 9.5c-2.977 0-5.548 1.748-6.758 4.269zM12 10a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/>
+                              <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 0L1.75 6v3.5L12 16l10.25-6.5V6L12 0zm0 2.25L19.5 6.75 12 11.25 4.5 6.75 12 2.25z"/>
+                                <circle cx="12" cy="17.5" r="5.5"/>
                               </svg>
                               Google Scholar
                             </a>
