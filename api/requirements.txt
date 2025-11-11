@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+sqlmodel
+SQLAlchemy
+httpx
+pydantic
+python-dotenv
+tenacity
+orjson
